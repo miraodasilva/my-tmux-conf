@@ -1,0 +1,7 @@
+pane	gpu	0	:gpuX	1	:*	0	:/homes/rs2517	1	bash	:
+pane	misc	0	:bash	1	:*	0	:/homes/rs2517	1	bash	:
+pane	server	0	:bash	1	:*	0	:/homes/rs2517	1	python	:/vol/paramonos2/projects/rodrigo/miniconda3/envs/cuda10/bin/python /vol/paramonos2/projects/rodrigo/miniconda3/envs/cuda10/bin/visdom
+window	gpu	0	1	:*	bdfd,183x44,0,0,0
+window	misc	0	1	:*	bdff,183x44,0,0,2
+window	server	0	1	:*	bdfe,183x44,0,0,1
+state	gpu	

@@ -1,0 +1,9 @@
+pane	gpu	0	:gpu1	1	:*	0	:/vol/paramonos2/projects/rodrigo/CyclePASE	1	python	:python eval_train.py -g 0 --dataset eval_datasets/spc.yaml --setting finetuned --weights_path ../results/CyclePASE/conformer-bs16-factor03/best/audio-temp-best-audiovisual.pt
+pane	gpu	1	:gpu3	0	:-	0	:/homes/rs2517	1	bash	:
+pane	misc	0	:bash	1	:*	0	:/homes/rs2517	1	bash	:
+pane	server	0	:bash	1	:*	0	:/homes/rs2517	1	bash	:
+window	gpu	0	1	:*	ba9d,204x53,0,0,0
+window	gpu	1	0	:-	ba9e,204x53,0,0,1
+window	misc	0	1	:*	baa0,204x53,0,0,3
+window	server	0	1	:*	ba9f,204x53,0,0,2
+state	gpu	

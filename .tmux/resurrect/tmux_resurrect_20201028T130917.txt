@@ -1,0 +1,10 @@
+pane	gpu	0	:..igo/CyclePASE	1	:*	0	:/vol/paramonos2/projects/rodrigo/CyclePASE	0	bash	:
+pane	gpu	0	:..igo/CyclePASE	1	:*	1	:/vol/paramonos2/projects/rodrigo/CyclePASE	1	bin/zsh	:
+pane	gpu	1	:gpu3	0	:-	0	:/homes/rs2517	1	bash	:
+pane	misc	0	:bash	1	:*	0	:/homes/rs2517	1	bash	:
+pane	server	0	:bash	1	:*	0	:/homes/rs2517	1	bash	:
+window	gpu	0	1	:*	777b,183x46,0,0{91x46,0,0,0,91x46,92,0,5}
+window	gpu	1	0	:-	ba9e,204x53,0,0,1
+window	misc	0	1	:*	baa0,204x53,0,0,3
+window	server	0	1	:*	ba9f,204x53,0,0,2
+state	gpu	

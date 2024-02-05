@@ -1,0 +1,11 @@
+pane	gpu	0	:gpu0	0	:-	0	:/vol/paramonos2/projects/rodrigo/CyclePASE	1	python	:python train.py --dataset datasets/lrw10_halfface_gpudata.yaml --use_xmc --pretext audiovisual --checkpoint_dir /vol/paramonos2/projects/rodrigo/results/CyclePASE/conformer-bs16-factor03wd --epochs 40 --batch_size 16 --visdom plots --noam_factor 0.3 --weight_decay
+pane	gpu	0	:gpu0	0	:-	1	:/vol/paramonos2/projects/rodrigo/CyclePASE	0	bash	:
+pane	gpu	1	:gpu1	1	:*	0	:/vol/paramonos2/projects/rodrigo/CyclePASE	0	python	:python train.py --dataset datasets/lrw10_halfface_gpudata.yaml --use_xmc --pretext audiovisual --checkpoint_dir /vol/paramonos2/projects/rodrigo/results/CyclePASE/conformer-bs16-factor03wd-xmc20to60 --epochs 60 --batch_size 16 --visdom plots --noam_factor 0.3 --weight_decay --xmc_epoch_start 20
+pane	gpu	1	:gpu1	1	:*	1	:/vol/paramonos2/projects/rodrigo/CyclePASE	1	bash	:
+pane	misc	0	:bash	1	:*	0	:/homes/rs2517	1	bash	:
+pane	server	0	:bash	1	:*	0	:/homes/rs2517	1	bash	:
+window	gpu	0	0	:-	ee40,204x53,0,0{102x53,0,0,0,101x53,103,0,8}
+window	gpu	1	1	:*	7aef,80x23,0,0{41x23,0,0,3,38x23,42,0,5}
+window	misc	0	1	:*	ba9f,204x53,0,0,2
+window	server	0	1	:*	ba9e,204x53,0,0,1
+state	gpu	
